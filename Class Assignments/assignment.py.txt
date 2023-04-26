@@ -1,0 +1,43 @@
+for i in range (1500,2701) :
+    if i%5==0 and i%7==0 :
+        print(i)
+
+for i in range (1,51) :
+    if i%3==0 and i%5==0 :
+       print("fizzbuzz")
+    elif i%3==0 :
+         print("fizz")
+    elif i%5==0 :
+         print("buzz")
+
+sum=0
+for i in range(1,11) :
+    sum=sum+**2
+print(sum)
+
+a=0
+b=1
+for i in range (0,10) :
+    c=a+b
+    a=b
+    b=c
+
+a=int (input("a="))
+b=int (input("b="))
+c=int (input("c="))
+if a>b :
+   if a<c :
+      print(a)
+   elif b>c :
+        print(b)
+   else :
+      print(c)
+elif b<c :
+     print(b)
+elif a<c :
+    print(c)
+else :
+    print (a)
+
+
+    
