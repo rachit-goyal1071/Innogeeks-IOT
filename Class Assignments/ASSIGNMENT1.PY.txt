@@ -1,0 +1,47 @@
+for i in range(1500,2701,1):
+    if(i%7==0 and i%5==0):
+        print(i)
+
+        
+#fizz buzz
+for i in range(1,51,1):
+    if(i%3==0 and i%5!=0):
+        print(i,"Fizz")
+    elif(i%5==0 and i%3!=0):
+        print(i,"Buzz")
+    elif(i%5==0 and i%3==0):
+        print(i,"FizzBuzz")
+
+i=0
+j=1
+print(i)
+print(j)
+for x in range(1,9,1):
+    k=i+j
+    i=j
+    j=k
+    print(k)        
+
+i=int (input("first"))
+j=int (input("second"))
+k=int (input("third"))
+x=i
+y=j
+z=k
+if(j>x):
+    x=j
+    y=i
+    z=k
+if(k>x):
+    x=k
+    y=j
+    z=i
+if(y>z):
+    print(y)
+else:
+    print(z)
+
+sum=0
+for i in range(1,11,1):
+    sum=sum+i*i
+print(sum)    
