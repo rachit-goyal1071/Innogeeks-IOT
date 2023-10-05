@@ -5,4 +5,4 @@ for a in range(n-1,0,-1):
         print(b,end="")
     for c in range(((n-a)-1),0,-1):
         print(c,end="")
-    print()
+    print("a")
