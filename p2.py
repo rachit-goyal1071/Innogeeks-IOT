@@ -17,11 +17,3 @@ for j in range(0,T):
                 else:
                     print("YES")
                     exit()
-        
-                
-        # if (N-a)>=4:
-        #     print("NO")
-        # else:
-        #     print("YES")
-    # else:
-    #     print("YES")
