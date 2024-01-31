@@ -5,9 +5,9 @@ def create_file(filename):
     file.close()
     
     f = open(filename, 'r')
-    print(f.read())
+    print(f.readlines())
     f.close()
 
-# Test the function
+# Run the function
 create_file('new_file.txt')
 
